@@ -11,7 +11,4 @@ const getImgs = async(topic) => {
     return imgArr.data
 }
 
-
-// getImgUrl('soccer')
-
 module.exports = {getImgs}

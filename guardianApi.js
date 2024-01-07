@@ -62,7 +62,7 @@ const getGuardianArticlesByTopic = async(topic) => {
     
 }
 
-getArticlesByTopic('science')
+// getArticlesByTopic('science')
 
 
 

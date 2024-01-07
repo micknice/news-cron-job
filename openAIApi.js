@@ -21,7 +21,6 @@ const getQueryResponse = async(query) => {
 
 }
 
-console.log(getQueryResponse('write 100 words on the history of jelly'))
 
 
 module.exports = {getQueryResponse}
