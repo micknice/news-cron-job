@@ -7,7 +7,7 @@ const testUrl = 'https://www.theguardian.com/science/2023/dec/27/3d-printed-chip
 
 const scrapeArticleBody = async (url) => {
     try {
-    const browser = await puppeteer.launch({headless: false });
+    const browser = await puppeteer.launch({headless: true });
     const page = await browser.newPage();
   
     await page.goto(url);
